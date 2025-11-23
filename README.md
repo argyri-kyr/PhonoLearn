@@ -51,8 +51,11 @@ The system delivers interactive exercises, manages progression automatically, an
 The executable launches a local Go server and instructs the user to open http://localhost:8080 in Microsoft Edge to begin using the application.
 
 ✔ No installation
+
 ✔ No internet required
+
 ✔ Highly privacy-safe
+
 ✔ Designed for children, educators, and therapists
 
 
