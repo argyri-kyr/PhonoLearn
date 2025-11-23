@@ -7,10 +7,40 @@ PhonoLearn is an offline, local-hosted, and child-friendly educational applicati
 http://localhost:8080
 
 All data (sessions, answers, progression) is stored locally on the machine using JSON files — ensuring complete privacy, no network dependency, and a simple installation experience.
+
+
 ## Table of Contents
 
 Description
-## 📘 Description
+
+Logo
+
+Features
+
+Technologies
+
+Architecture
+
+Installation
+
+Usage / Examples
+
+Configuration & Environment
+
+Data Storage
+
+Documentation
+
+FAQ
+
+Support
+
+Authors
+
+Used By
+
+
+## Description
 
 PhonoLearn is a self-contained, offline intervention platform built to help children develop:
 
@@ -26,13 +56,12 @@ The executable launches a local Go server and instructs the user to open http://
 ✔ Designed for children, educators, and therapists
 
 
-## 🖼 Logo
+## Logo
 
 ![alt text](app_shortcut.ico)
 
 
-
-## ⭐ Features
+## Features
 
 ### 🎒 Educational
 
@@ -67,7 +96,7 @@ The executable launches a local Go server and instructs the user to open http://
 - Consistent templates
 
 
-## 🧠 Tech Stack
+## Technologies
 
 - **Golang** (server, logic, scoring, persistence)
 
@@ -76,7 +105,7 @@ The executable launches a local Go server and instructs the user to open http://
 - **JSON** (exercise + answer storage)
 
 
-## 🏗 Architecture
+## Architecture
 
 PhonoLearn uses a **Layered Architecture** combined with **MVC + Repository + Services**.
 
@@ -102,14 +131,7 @@ PhonoLearn uses a **Layered Architecture** combined with **MVC + Repository + Se
         Real-time answer persistence
 
 
-
-
-
-
-
-
-
-## 📦 Installation
+## Installation
 
 End-users do not install anything — they simply:
 
@@ -127,7 +149,7 @@ End-users do not install anything — they simply:
     The app runs fully locally.
 
 
-## 🧩 Usage / Examples
+## Usage / Examples
 
 - User starts a session
 
@@ -140,7 +162,7 @@ End-users do not install anything — they simply:
 - Session completed and marked
 
 
-## 🔧 Configuration & Environment
+## Configuration & Environment
 
 Configuration is stored in:Configuration is stored in:
 data/config.json
@@ -150,7 +172,9 @@ Variables include:
 - patientId
 
 - users
-## 🗄 Data Storage
+
+
+## Data Storage
 
 /individual/{patientId}/sessionX/answers/*.json
 
@@ -162,7 +186,7 @@ SectorLevel.json
 [Documentation](https://github.com/argyri-kyr/PhonoLearn/blob/dea6dc773894bbc52701c28b964fdd6b807ae8b8/Documentation.docx)
 
 
-## ❓ FAQ
+## FAQ
 
 #### Do I need internet?
 
@@ -179,20 +203,17 @@ The app is for ages 7-8 and up. Children in 2nd - 3rd grade could play the game,
 Yes, you can see them at any time, as they are stored locally.
 
 
-
-
 ## Support
 
 For support, email kyriakaki.argyri@gmail.com .
 
 
-## 👥 Authors
+## Authors
 
 - [@argyri-kyr](https://github.com/argyri-kyr)
 
 
-
-## 🧑‍🏫 Used By
+## Used By
 
 This project can be used by the following:
 
