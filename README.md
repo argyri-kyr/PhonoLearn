@@ -213,7 +213,7 @@ For support, email kyriakaki.argyri@gmail.com .
 
 ## Authors
 
-- [@argyri-kyr](https://github.com/argyri-kyr)
+[@argyri-kyr](https://github.com/argyri-kyr)
 
 
 ## Used By
