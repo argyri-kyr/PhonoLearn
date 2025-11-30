@@ -110,28 +110,29 @@ The executable launches a local Go server and instructs the user to open http://
 
 ## Architecture
 
-PhonoLearn uses a **Layered Architecture** combined with **MVC + Repository + Services**.
+PhonoLearn uses a **Client–Server Architecture** combined with **MTV**.
 
-    1. Presentation Layer
-        HTML pages (main.html, ...)
-        JavaScript logic (main.js, ...)
-        Audio, images, templates
+**Server**
 
-    2. Application Layer
-        Go handlers
-        HTTP routing
-        Session management
-        Template rendering
+Backend – Go Application
 
-    3. Domain Layer
-        Scoring rules
-        Difficulty progression engine
-        Wrong-answer prioritization
-    
-    4. Infrastructure Layer
-        Local JSON files
-        Folder auto-creation
-        Real-time answer persistence
+    1. It provides services over HTTP
+    2. It manages all data operations
+
+**Client**
+
+Frontend – Browser: HTML/CSS/JS
+
+    1. It does not store or process domain logic
+    2. It depends on the server for all application data
+
+**Why MTV**
+
+MODEL → Go backend logic & JSON data
+
+VIEW → Go Handler Functions
+
+TEMPLATE → HTML pages rendered with Go template engine
 
 
 ## Installation
